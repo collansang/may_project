@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/views/style.css">
+    <title><%= title %></title>
+</head>
+<body>
+    <header>
+        <h1>Twendeshamba</h1>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/api/auth/register">Register</a>
+            <a href="/api/auth/login">Login</a>
+            <a href="/api/products">Products</a>
+            <a href="/api/forum">Forum</a>
+        </nav>
+    </header>
+    <main>
+        <%- body %>
+    </main>
+    <footer>
+        <p>&copy; 2024 Twendeshamba. All rights reserved.</p>
+    </footer>
+    <script src="/js/scripts.js"></script>
+</body>
+</html>
